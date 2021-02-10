@@ -1,0 +1,56 @@
+html{
+    background: #DCDCDC;
+}
+header{
+    background-color: darkcyan;
+}
+.form-container{
+    background-image:url('../img/ferreteria.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+form{
+    background-color:rgba(0,0,3,.4);
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color:red;
+} 
+#button{
+    text-align: right;
+}
+h1{
+    color: saddlebrown;
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    color:#ca3210;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+footer{
+background-image: url('../img/footer.jpg');
+
+}
+footer p,li,ul{
+    color: white;
+   
+}
+#informacion{
+    text-align: right;
+}
+.tp{
+    font-size: 25px;
+    
+}
+
+#btn_submit:hover{
+    color: red;
+}
+
