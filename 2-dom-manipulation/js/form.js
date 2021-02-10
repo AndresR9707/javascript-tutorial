@@ -43,11 +43,9 @@ function validateShipment(event){
         alert('seleccione un curso');
         return;
     }
-    const checkboxes2 = document.querySelectorAll('[type="checkbox"]');
-
-    const selectedCboxes = Array.prototype.slice.call(checkboxes2).filter(ch => ch.checked==true);
-    for (var i = 0; i< selectedCboxes.length; i++) {
+    const selectedCboxes = Array.prototype.slice.call(checkboxes).filter(ch => ch.checked==true);
+    for (const i = 0; i< selectedCboxes.length; i++) {
+        console.log(selectedCboxes[i].name);
     }
-    console.log(selectedCboxes);
     console.log('form validation');
 }
