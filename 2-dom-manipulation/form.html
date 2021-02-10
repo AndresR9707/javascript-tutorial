@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="utf-8">
+    <meta name="og:title" property="og:title" content="Ferreteria Trinidad la 14">
+    <meta name="description" content="La ferretería Trinidad ofrece los servicios de cerrajero y plomero a domicilio en la ciudad de tunja, además encuentra en nuestras instalaciones todos los materiales para la construcción">
+    <meta name="robots" content="2">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ferreteria Trinidad</title>
+    </head>
+    <body>
+    <header>
+     <h1>Ferreteria Trinidad</h1>
+     <h2>Bienvenidos a la Ferreteria Trinidad la 14</h2>
+     <nav >
+      <ol>
+       <li>Inicio</li>
+       <li>Pituras</li>
+       <li>Herramientas</li>
+       <li>Tuberia</li>
+       <li>Accesorios</li>
+      </ol>
+     </nav>
+    </header>
+    <main>
+    <article>
+     <header>
+      <h2>Promociones:</h2>
+      <figure>
+      <img src="img/F1.jpeg" width="250" height="250" alt="Productos de ferreteria"><br>
+      <figcaption>Productos de ferreteria</figcaption>
+      </figure>
+     </header>
+     <section class="form-container">
+      <p>Esta ferreteria es un establecimiento comercial que se dedica  a la venta al por mayor y menor de materiales para construccion y necesidades del hogar</p>  
+      <h3>Realiza tus pedidos !</h3>
+      <form id="form" action="/">
+        <fieldset>
+        <legend>Ingrese sus datos de contacto</legend>
+        <p><label for="name">
+        Nombre: <input type="text" id="name" name="person_name" >
+        <!--<abbr title="required" aria-label="required">*</abbr>-->
+        </label></p>
+        <p><label for="email">
+        E-Mail: <input type="text" id="email" name="email_person" >
+        <!--<abbr title="required" aria-label="required">*</abbr>-->
+        </label></p>
+        <p><label for="phone">
+        Numero telefonico(+57): (optional):<input type="tel" id="phone" name="phone_person">
+        </label></p>
+        </fieldset>
+        <fieldset>
+        <legend>Seleccione el producto que deseea pedir:</legend>
+        <p><input type="checkbox" id="painting" name="painting"> <label for="painting">Pintura</label></p>
+        <p><input type="checkbox" id="screw" name="screw"><label for="screw">Tornillo</label></p>
+        <p><input type="checkbox" id="pipeline" name="pipeline"><label for="pipeline">Tuberia</label></p>
+        <p><input type="checkbox" id="tool" name="tool"><label for="tool">Herramienta</label></p>
+        <p><input type="checkbox" id="sand" name="sand"><label for="sand">Arena</label></p>
+        <p><input type="checkbox" id="iron" name="iron"><label for="iron">Hierro</label></p>
+        <p><input type="checkbox" id="accessories" name="accessories"><label for="accessories">Accesorios</label></p>
+        </fieldset>
+        <label class="tp" for="message">Otro tipo de producto?(optional):</label><br>
+        <textarea id="message" name="message" maxlength="50" minlength="5" rows="5"></textarea>
+     <fieldset id="mediosdepago">
+ <strong>Medios de pago:</strong>
+      <abbr title="required" aria-label="required">*</abbr><br>
+      <label for="cash">Efectivo:<input type="radio" id="cash" name="method" ></label><br> 
+      <label for="card">Tarjeta:<input type="radio" id="card" name="method" ></label><br>
+      <label for="pse">PSE:<input type="radio" id="pse" name="method" ></label><br>
+    </fieldset>
+    <p id="button">
+    <button type="submit" id="btn_submit">Enviar pedido</button> 
+    <button type="reset" id="btn_reset">Cancelar</button>   
+    </p> 
+    </form>
+    </section>
+    </article>
+    </main>
+    <footer>   
+    <hr> 
+    <p>Mayor Informacion:</p>
+     <nav>
+      <ul>
+      <li>Telefono: 311 998 6580</li>
+      <li>Email: ferreteriatrinidad74@gmail.com</li>
+      <li><address>Cr 14 # 1 A sur Tunja(Boyaca)</address></li>
+      </ul>
+     </nav>
+     <div id="informacion">
+    <p>Gracias por visitar nuestra pagina</p>
+    <p>Autor: Andres Felipe Rivera Puin</p>  
+    <p>Facebook: <a href="https://www.facebook.com/andresfelipe.rivera.73" target="_blank">link</a></p> 
+   </div>  
+  </footer>
+  <script src="js/form.js"></script>
+</body>
+</html>
